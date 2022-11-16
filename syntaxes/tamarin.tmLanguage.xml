@@ -129,7 +129,7 @@
 
       <dict>
          <key>match</key>
-         <string>(lemma)\s+(\w+)\s*(?:\[(?:(sources|use_induction|reuse)|(?:(hide_lemma)=\w+))\])?\s*:</string>
+         <string>(lemma)\s+(\w+)\s*(?:\[(?:(sources|use_induction|reuse)|(?:(hide_lemma)=\w+)|,)*\])?\s*:</string>
          <key>captures</key>
          <dict>
             <key>1</key>
